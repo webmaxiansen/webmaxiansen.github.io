@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+     function Liang(name, age) {
+        this.name = name;
+        this.age = age;
+      }
+      var xiaoLiang = new Liang("小亮", 1);
+      // console.log(xiaoLiang);
+
+      var maYun = {
+        money: 999999999999,
+        houses: 1000000,
+      };
+      // 替换 小亮的 父亲 为 马云..
+      // 为对象替换原型
+      // 直接修改 __proto__ 的指向, 效率比较低, 推荐另一种做法:
+      // xiaoLiang.__proto__ = maYun;
+
+      // 系统提供了专门替换对象原型的函数: setPrototypeOf()
+      // 把参数1 的 proto 换成 参数2
+      Object.setPrototypeOf(xiaoLiang, maYun);
+
+      console.log(xiaoLiang);
+      console.log(xiaoLiang.money);
+  </script>
+</body>
+</html>

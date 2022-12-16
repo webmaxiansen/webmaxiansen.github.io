@@ -1,0 +1,45 @@
+// body{
+// // width: 100%;
+// // height: 100%;
+// background-image: url(../img/denglu/1.gif);
+// background-repeat: no-repeat;
+// }
+.zdy-dhz{
+  width: 1000px;
+  height: 500px;
+  // background-color: burlywood;
+  margin: auto;
+  .zdy_igm{
+    img{
+     height: 60px;
+    }
+    span{
+     font-family:方正舒体;
+     vertical-align:bottom;
+     font-size: 60px;
+    }
+   }
+}
+.zdy-inpt{
+ input{
+  width: 300px;
+  height: 40px;
+  outline: none;
+ }
+ input:nth-child(1){
+   background-image: url(../img/login/zhucedengluyonghuming.png);
+   background-repeat: no-repeat;
+   background-position: 10px 10px;
+   padding-left: 45px;
+ }
+ input:nth-child(2){
+  background-image: url(../img/login/zhucedenglumima.png);
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+  padding-left: 45px;
+}
+}
+a{
+  text-decoration: none !important;
+  // outline: none !important;
+}

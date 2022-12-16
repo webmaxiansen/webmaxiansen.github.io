@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <title>Document</title>
+  <style></style>
+</head>
+
+<body>
+  <!-- 导航 -->
+  <div class="border-bottom">
+    <div class="juzhong clearfix">
+      <div class="zdy-banner">
+        <div class="mr-4 float-left">
+          <img src="./img/dianying.png" alt="">
+          <span class="align-bottom">怪咖影城</span>
+        </div>
+        <div class="zdy-ban-kg float-left h-100 w-50">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link active" href="a.html">首页</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="movie.html">电影</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" data-toggle="pill" href="#pills-contact">演出</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="pill" href="#pills-contact">榜单</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" data-toggle="pill" href="#pills-contact">商城</a>
+            </li>
+          </ul>
+        </div>
+        <div class="zdy-yuan float-left">
+          <div class="float-left">
+            <input type="text" placeholder="找影视剧、影人、影院">
+          </div>
+          <div class="float-left">
+            <img src="./img/sousuo.png" class="
+            bg-danger rounded-circle" alt="">
+          </div>
+        </div>
+        <div class="float-left clearfix">
+          <div class="float-left">
+            <img src="./img/login.png" class="w-100" alt="">
+          </div>
+          <div class="float-left" style="height: 50px;">
+            <div></div>
+          </div>
+          <div class="text-center zdy-xs">
+            <a href="login.html">登录</a>
+            <!-- <img src="./img/dianying.png" alt=""> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  轮播-->
+  <div class="w-100 zdy-dier">
+    <div class="zdy-lunbo">
+      <div class="carousel slide" data-ride="carousel" id="banner">
+        <!-- 展示图区域 -->
+        <div class="carousel-inner zdy_img">
+          <div class="carousel-item active">
+            <img src="./img/lunbo/3.jpg" alt="" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/lunbo/4.jpg" alt="" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/lunbo/5.jpg" alt="" class="d-block w-100">
+          </div>
+        </div>
+        <!-- 左右切换按钮 -->
+        <a href="#banner" class="carousel-control-prev xz-zy" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#banner" class="carousel-control-next xz-zy" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+        <!-- 指示符区域 -->
+        <ul class="carousel-indicators xz-zsf">
+          <li data-target="#banner" data-slide-to="0" class="active"></li>
+          <li data-target="#banner" data-slide-to="1"></li>
+          <li data-target="#banner" data-slide-to="2"></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-4">
+    <div class="col-7">
+      <!-- 正在热映 -->
+      <div>
+        <div class="clearfix">
+          <h3 class="ml=4 float-left text-danger">正在热映 (32部)</h3>
+          <h6 class="float-right mt-2">
+            <a href="">全部></a>
+          </h6>
+        </div>
+        <div class="row ml-2">
+          <div class="col-3 mb-3 p-0 text-center">
+            <div class="card zdy-hezi border-0">
+              <img src="./img/shouye/j1.jpg" alt="">
+              <div class="card-footer zdy-weilei">
+                <a href="./404.html" class="h5">购票</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 p-0 text-center">
+            <div class="card zdy-hezi border-0">
+              <img src="./img/shouye/j2.jpg" alt="">
+              <div class="card-footer zdy-weilei">
+                <a href="./404.html" class="h5">购票</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 p-0 text-center">
+            <div class="card zdy-hezi border-0">
+              <img src="./img/shouye/j3.jpg" alt="">
+              <div class="card-footer zdy-weilei">
+                <a href="./404.html" class="h5">购票</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 p-0 text-center">
+            <div class="card zdy-hezi border-0">
+              <img src="./img/shouye/j4.jpg" alt="">
+              <div class="card-footer zdy-weilei">
+                <a href="./404.html" class="h5">购票</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 p-0 text-center">
+            <div class="card zdy-hezi border-0">
+              <img src="./img/shouye/j5.jpg" alt="">
+              <div class="card-footer zdy-weilei">
+                <a href="./404.html" class="h5">购票</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 p-0 text-center">
+            <div class="card zdy-hezi border-0">
+              <img src="./img/shouye/j6.jpg" alt="">
+              <div class="card-footer zdy-weilei">
+                <a href="./404.html" class="h5">购票</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 p-0 text-center">
+            <div class="card zdy-hezi border-0">
+              <img src="./img/shouye/j7.jpg" alt="">
+              <div class="card-footer zdy-weilei">
+                <a href="./404.html" class="h5">购票</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 p-0 text-center">
+            <div class="card zdy-hezi border-0">
+              <img src="./img/shouye/j8.jpg" alt="">
+              <div class="card-footer zdy-weilei">
+                <a href="./404.html" class="h5">购票</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 即将上映 -->
+      <div>
+        <div class="clearfix">
+          <h3 class="ml=4 float-left text-primary">即将上映 (54部)</h3>
+          <h6 class="float-right mt-2">
+            <a href="">全部></a>
+          </h6>
+        </div>
+        <div class="row ml-2">
+          <div class="col-3 mb-3 p-0 text-center">
+            <div class="card zdy-hezi border-0">
+              <img src="./img/shouye/j9.jpg" alt="">
+              <div class="card-body p-0">
+                <div class="clearfix">
+                  <h6 class="float-left text-warning btn">5784想看</h6>
+                </div>
+                <div class="zdy-ys">
+                  <a href="" class="float-left btn">预告片</a>
+                  <a href="./404.html" class="float-right btn text-primary">预售</a>
+                </div>
+              </div>
+              <div class="card-footer bg-white">
+                <span>9月8日上映</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 mb-3 p-0 text-center">
+            <div class="card zdy-hezi border-0">
+              <img src="./img/shouye/j10.jpg" alt="">
+              <div class="card-body p-0">
+                <div class="clearfix">
+                  <h6 class="float-left text-warning btn">3654想看</h6>
+                </div>
+                <div class="zdy-ys">
+                  <a href="" class="float-left btn">预告片</a>
+                  <a href="./404.html" class="float-right btn text-primary">预售</a>
+                </div>
+              </div>
+              <div class="card-footer bg-white">
+                <span>9月13日上映</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 mb-3 p-0 text-center">
+            <div class="card zdy-hezi border-0">
+              <img src="./img/shouye/j11.jpg" alt="">
+              <div class="card-body p-0">
+                <div class="clearfix">
+                  <h6 class="float-left text-warning btn">6747想看</h6>
+                </div>
+                <div class="zdy-ys">
+                  <a href="" class="float-left btn">预告片</a>
+                  <a href="./404.html" class="float-right btn text-primary">预售</a>
+                </div>
+              </div>
+              <div class="card-footer bg-white">
+                <span>9月18日上映</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 mb-3 p-0 text-center">
+            <div class="card zdy-hezi border-0">
+              <img src="./img/shouye/j12.jpg" alt="">
+              <div class="card-body p-0">
+                <div class="clearfix">
+                  <h6 class="float-left text-warning btn">8457想看</h6>
+                </div>
+                <div class="zdy-ys">
+                  <a href="" class="float-left btn">预告片</a>
+                  <a href="./404.html" class="float-right btn text-primary">预售</a>
+                </div>
+              </div>
+              <div class="card-footer bg-white">
+                <span>9月23日上映</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 mb-3 p-0 text-center">
+            <div class="card zdy-hezi border-0">
+              <img src="./img/shouye/j13.jpg" alt="">
+              <div class="card-body p-0">
+                <div class="clearfix">
+                  <h6 class="float-left text-warning btn">9845想看</h6>
+                </div>
+                <div class="zdy-ys">
+                  <a href="" class="float-left btn">预告片</a>
+                  <a href="./404.html" class="float-right btn text-primary">预售</a>
+                </div>
+              </div>
+              <div class="card-footer bg-white">
+                <span>9月30日上映</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 mb-3 p-0 text-center">
+            <div class="card zdy-hezi border-0">
+              <img src="./img/shouye/j14.jpg" alt="">
+              <div class="card-body p-0">
+                <div class="clearfix">
+                  <h6 class="float-left text-warning btn">1.2W想看</h6>
+                </div>
+                <div class="zdy-ys">
+                  <a href="" class="float-left btn">预告片</a>
+                  <a href="./404.html" class="float-right btn text-primary">预售</a>
+                </div>
+              </div>
+              <div class="card-footer bg-white">
+                <span>10月5日上映</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 mb-3 p-0 text-center">
+            <div class="card zdy-hezi border-0">
+              <img src="./img/shouye/j15.jpg" alt="">
+              <div class="card-body p-0">
+                <div class="clearfix">
+                  <h6 class="float-left text-warning btn">2.2W想看</h6>
+                </div>
+                <div class="zdy-ys">
+                  <a href="" class="float-left btn">预告片</a>
+                  <a href="./404.html" class="float-right btn text-primary">预售</a>
+                </div>
+              </div>
+              <div class="card-footer bg-white">
+                <span>10月19日上映</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 mb-3 p-0 text-center">
+            <div class="card zdy-hezi border-0">
+              <img src="./img/shouye/j16.jpg" alt="">
+              <div class="card-body p-0">
+                <div class="clearfix">
+                  <h6 class="float-left text-warning btn">3.6W想看</h6>
+                </div>
+                <div class="zdy-ys">
+                  <a href="" class="float-left btn">预告片</a>
+                  <a href="./404.html" class="float-right btn text-primary">预售</a>
+                </div>
+              </div>
+              <div class="card-footer bg-white">
+                <span>10月27日上映</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-4 offset-1">
+      <!-- 电影排行 -->
+      <h2 class="text-danger mb-4">今日票房</h2>
+      <div class="list-group">
+        <ul class="list-unstyled">
+          <li class="list-group-item list-group-item-action clearfix">
+            <div class="float-left">
+              <img src="./img/shouye/17.jpg" alt="">
+            </div>
+            <div class="float-left">
+              <a href="./404.html" class="mb-5">长津湖 </a><br><br>
+              <span class="h6 text-danger">2.90亿</span>
+            </div>
+          </li>
+          <li class="list-group-item list-group-item-action clearfix">
+            <div class="float-left">
+              <span class="h3 text-danger">2</span>
+              <span class="ml-4 h5">我和我的父辈</span>
+            </div>
+            <div class="float-right mt-2">
+              <span class="text-danger">7684.32万</span>
+            </div>
+          </li>
+          <li class="list-group-item list-group-item-action clearfix">
+            <div class="float-left">
+              <span class="h3 text-danger">3</span>
+              <span class="ml-4 h5">功夫熊猫3</span>
+            </div>
+            <div class="float-right mt-2">
+              <span class="text-danger">4892.32万</span>
+            </div>
+          </li>
+          <li class="list-group-item list-group-item-action clearfix">
+            <div class="float-left">
+              <span class="h3">4</span>
+              <span class="ml-4 h5">再见少年</span>
+            </div>
+            <div class="float-right mt-2">
+              <span class="text-danger">1898.00万</span>
+            </div>
+          </li>
+          <li class="list-group-item list-group-item-action clearfix">
+            <div class="float-left">
+              <span class="h3">5</span>
+              <span class="ml-4 h5">大圣归来</span>
+            </div>
+            <div class="float-right mt-2">
+              <span class="text-danger">1890.56万</span>
+            </div>
+          </li>
+          <li class="list-group-item list-group-item-action clearfix">
+            <div class="float-left">
+              <span class="h3">6</span>
+              <span class="ml-4 h5">三生三世十里桃花</span>
+            </div>
+            <div class="float-right mt-2">
+              <span class="text-danger">1649.32万</span>
+            </div>
+          </li>
+          <li class="list-group-item list-group-item-action clearfix">
+            <div class="float-left">
+              <span class="h3">7</span>
+              <span class="ml-4 h5">白蛇起源2</span>
+            </div>
+            <div class="float-right mt-2">
+              <span class="text-danger">1545.32万</span>
+            </div>
+          </li>
+          <li class="list-group-item list-group-item-action clearfix">
+            <div class="float-left">
+              <span class="h3">8</span>
+              <span class="ml-4 h5">霍元甲</span>
+            </div>
+            <div class="float-right mt-2">
+              <span class="text-danger">1023.44万</span>
+            </div>
+          </li>
+          <li class="list-group-item list-group-item-action clearfix">
+            <div class="float-left">
+              <span class="h3">9</span>
+              <span class="ml-4 h5">龙门飞甲</span>
+            </div>
+            <div class="float-right mt-2">
+              <span class="text-danger">896.65万</span>
+            </div>
+          </li>
+          <li class="list-group-item list-group-item-action clearfix">
+            <div class="float-left">
+              <span class="h3">10</span>
+              <span class="ml-4 h5">龙争虎斗</span>
+            </div>
+            <div class="float-right mt-2">
+              <span class="text-danger">725.96万</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="clearfix">
+        <h2 class="text-warning float-left">最受期待</h2><br>
+        <a href="" class="float-right text-warning">查看完整榜单></a>
+      </div>
+      <div class="list-group mt-3">
+        <ul class="list-unstyled">
+          <li class="list-group-item list-group-item-action p-0">
+            <a href="./404.html">
+              <div class="">
+                <img src="./img/shouye/d2.gif" class="" alt="">
+              </div>
+              <div class="">
+                <ul class="list-unstyled ml-2">
+                  <li class="h4">花木兰</li>
+                  <li class="text-secondary">上映时间：2021</li>
+                  <li class="text-warning mt-2">659874.32想看</li>
+                </ul>
+              </div>
+            </a>
+          </li>
+          <li class="list-group-item list-group-item-action">
+            <div class="row">
+              <div class="col-6">
+                <a href="./404.html" class="bg-danger">
+                  <img src="./img/shouye/d4.gif" class="w-100 d-block" alt="">
+                  <p class="h4 mt-2">疯狂动物城</p>
+                  <p class="text-warning m-0">369859.54想看</p>
+                </a>
+              </div>
+              <div class="col-6">
+                <a href="./404.html">
+                  <img src="./img/shouye/d3.gif" class="w-100 d-block" alt="">
+                  <p class="h4 mt-2">龙渊</p>
+                  <p class="text-warning m-0">98654.88想看</p>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item list-group-item-action clearfix">
+            <div class="float-left">
+              <span class="h3 text-danger">4</span>
+              <span class="ml-4 h5">无辜囚徒</span>
+            </div>
+            <div class="float-right mt-2">
+              <span class="text-danger">75416.65想看</span>
+            </div>
+          </li>
+          <li class="list-group-item list-group-item-action clearfix">
+            <div class="float-left">
+              <span class="h3 text-danger">5</span>
+              <span class="ml-4 h5">星球大战</span>
+            </div>
+            <div class="float-right mt-2">
+              <span class="text-danger">56989.68想看</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- 尾部 -->
+  <div>
+    <div class="bg-secondary">
+      <div class="m-auto w-50 pt-5">
+        <ul class="list-unstyled">
+          <li>
+            <h3>关于怪咖：
+              <a href="" class="text-danger h6">关于我们 |</a>
+              <a href="" class="text-danger h6">团队管理 |</a>
+              <a href="" class="text-danger h6">投资者关系</a>
+            </h3>
+          </li>
+          <li>
+            <p class="zdy-zt m-0 p-0">
+              商务合作邮箱：v@guaika.com
+              客服电话：10105335
+              违法和不良信息/涉未成年人有害信息举报电话：4006018900
+            </p>
+            <p class="zdy-zt m-0 p-0">
+              用户举报/涉未成年人有害信息举报邮箱：tousujubao@kuaika.com
+              舞弊线索举报邮箱：wubijubao@guaika.com
+            </p>
+          </li>
+          <li>
+            <span class="zdy-zt">中华人民共和国增值电信业务经营许可证 京B2-20190350</span>
+          </li>
+          <li class="d-flex justify-content-center mt-4">
+            <img src="./img/shouye/wb1.png" alt="">
+            <img src="./img/shouye/wb2.png" class="ml-4 mr-4" alt="">
+            <img src="./img/shouye/wb3.png" alt="">
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+@charset "UTF-8";
+.zdy-dhz {
+  width: 1000px;
+  height: 500px;
+  margin: auto; }
+  .zdy-dhz .zdy_igm img {
+    height: 60px; }
+  .zdy-dhz .zdy_igm span {
+    font-family: 方正舒体;
+    vertical-align: bottom;
+    font-size: 60px; }
+
+.zdy-inpt input {
+  width: 300px;
+  height: 40px;
+  outline: none; }
+.zdy-inpt input:nth-child(1) {
+  background-image: url(../img/login/zhucedengluyonghuming.png);
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+  padding-left: 45px; }
+.zdy-inpt input:nth-child(2) {
+  background-image: url(../img/login/zhucedenglumima.png);
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+  padding-left: 45px; }
+
+a {
+  text-decoration: none !important; }
+
+/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,118 @@
+.zdy-banner{
+  height: 50px;
+}
+.zdy-banner div:nth-child(2){
+line-height: 34px;
+}
+.zdy-banner div:nth-child(2) ul{
+  width: 100%;
+  & li{
+    width: 20%;
+    text-align: center;
+  }
+}
+.zdy-yuan{
+  // width: 220px;
+  height: 40px;
+  border-radius: 20px;
+  // background-color: blue;
+  margin-top: 5px;
+  margin-left: 40px;
+  background-color: #faf8fa;
+  & div:nth-child(1){
+    input{
+      height: 40px;
+      margin-left: 20px;
+      background-color: #faf8fa;
+      border: 0;
+      outline: none;
+      
+    }
+  }
+}
+.zdy-banner div:nth-child(4){
+  margin-left: 50px;
+  & div:nth-child(1){
+    margin-top: 5px;
+    width: 40px;
+   
+  }
+  
+  & div:nth-child(2) div{
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    border-top-color: black;
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+   .zdy-xs{
+    margin-top: 80px;
+    display: none;
+  }
+  &:hover .zdy-xs{
+    display: block;
+  }
+  &:hover{
+ 
+    border: 1px solid #ccc;
+  }
+}
+.juzhong{
+  width: 1200px;
+  height: 50px;
+  margin: auto;
+  // background-color: red;
+  // overflow: hidden;
+}
+.zdy-lunbo{
+  width: 1200px;
+  background-color: red;
+  height: 520px;
+  margin: auto;
+  .zdy_img{
+    img{
+      height: 520px;
+    }
+  }
+}
+.zdy-dier{
+  margin-top: 55px;
+}
+.zdy-hezi{
+  box-sizing: border-box;
+  padding: 25px;
+  .zdy-weilei:hover{
+    background-color: red;
+    color:white;
+  }
+ 
+  a{
+    text-decoration: none;
+    outline: 0;
+    color: #ef4238;
+  }
+  .zdy-weilei:hover{
+    a{
+      color:white;
+    }
+  }
+}
+
+  .zdy-ys:hover{
+    a:nth-child(2){
+      background-color: #2d98f3;
+    }
+  }
+  .zdy-ys:hover{
+    a:nth-child(2){
+      color: white !important;
+    }
+  }
+  a {
+    text-decoration: none !important;
+    outline: 0 !important;
+  }
+  .zdy-zt{
+    font-size: 14px;
+  }
